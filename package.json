@@ -1,0 +1,37 @@
+{
+  "name": "node-simple-tool",
+  "version": "1.0.0",
+  "description": "node tools",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "cross-env NODE_ENV=example node ./examples/index.js"
+  },
+  "keywords": [
+    "node",
+    "tools"
+  ],
+  "author": "wwilll first94@outlook.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwilll/simple-node-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwilll/simple-node-tool/issues"
+  },
+  "homepage": "https://github.com/wwilll/simple-node-tool#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "ora": "^7.0.1",
+    "progress": "^2.0.3"
+  }
+}
