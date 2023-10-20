@@ -1,10 +1,11 @@
 {
-  "name": "node-simple-tool",
-  "version": "1.0.0",
+  "name": "simple-node-tool",
+  "version": "1.0.1",
   "description": "node tools",
-  "main": "dist/cjs/index.js",
-  "module": "dist/es/index.js",
+  "main": "./index.js",
+  "module": "./index.js",
   "type": "module",
+  "types": "./index.d.ts",
   "exports": "./index.js",
   "engines": {
     "node": ">=16"
